@@ -13,9 +13,9 @@ MCR-ABC is a variant of the Artificial Bee Colony (ABC) algorithm. Its performan
 mcr-abc/
 ├── src/
 │   ├── mcr_abc_cec2013_cec2022.py   # Proposed MCR-ABC algorithm (CEC2013 & CEC2022)
-│   ├── abc_cec2013_cec2022.py       # Standard ABC baseline
-│   ├── abc_m1_core.py               # ABC-M1 variant (CEC2022)
-│   ├── abc_m2_core.py               # ABC-M2 variant (CEC2022)
+│   ├── abc_cec2022.py       # Standard ABC baseline
+│   ├── abc_m1_cec2022_D10.py               # ABC-M1 variant (CEC2022)
+│   ├── abc_m2_cec2022_D10.py               # ABC-M2 variant (CEC2022)
 │   ├── abcng_cec2022_cec2013.py     # ABCNG competitor
 │   ├── MEABC_CEC2013_2022.py        # MEABC competitor
 │   └── nabc_cec2013_cec2022.py      # NABC competitor
